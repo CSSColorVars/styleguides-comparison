@@ -1,0 +1,1379 @@
+:root {
+  --primary-color: #03a9f4;
+  --primary-shade-1: #f7fcff;
+  --primary-shade-2: #def4ff;
+  --primary-shade-3: #c5ecfe;
+  --primary-shade-4: #ace4fe;
+  --primary-shade-5: #92dcfe;
+  --primary-shade-6: #79d4fd;
+  --primary-shade-7: #60ccfd;
+  --primary-shade-8: #47c4fd;
+  --primary-shade-9: #2ebcfc;
+  --primary-shade-10: #14b4fc;
+  --primary-shade-11: #0398db;
+  --primary-shade-12: #0286c2;
+  --primary-shade-13: #0275a8;
+  --primary-shade-14: #02638f;
+  --primary-shade-15: #015276;
+  --primary-shade-16: #01405d;
+  --primary-shade-17: #012f44;
+  --primary-shade-18: #011d2a;
+  --primary-shade-19: #000c11;
+  --secondary-color: #673ab7;
+  --secondary-shade-1: #f7f4fc;
+  --secondary-shade-2: #e8e1f5;
+  --secondary-shade-3: #daceef;
+  --secondary-shade-4: #cbbae9;
+  --secondary-shade-5: #bda7e3;
+  --secondary-shade-6: #ae94dd;
+  --secondary-shade-7: #9f80d7;
+  --secondary-shade-8: #916dd1;
+  --secondary-shade-9: #8259cb;
+  --secondary-shade-10: #7446c4;
+  --secondary-shade-11: #5c34a4;
+  --secondary-shade-12: #512e90;
+  --secondary-shade-13: #46287d;
+  --secondary-shade-14: #3b216a;
+  --secondary-shade-15: #311b56;
+  --secondary-shade-16: #261543;
+  --secondary-shade-17: #1b0f2f;
+  --secondary-shade-18: #10091c;
+  --secondary-shade-19: #050309;
+  --accent-color: #4fc5ba;
+  --accent-shade-1: #fcfefe;
+  --accent-shade-2: #e8f8f6;
+  --accent-shade-3: #d5f1ef;
+  --accent-shade-4: #c2ebe7;
+  --accent-shade-5: #afe5e0;
+  --accent-shade-6: #9cded8;
+  --accent-shade-7: #89d8d1;
+  --accent-shade-8: #75d2c9;
+  --accent-shade-9: #62cbc2;
+  --accent-shade-10: #3ebcb1;
+  --accent-shade-11: #38a99f;
+  --accent-shade-12: #31968d;
+  --accent-shade-13: #2b837b;
+  --accent-shade-14: #257069;
+  --accent-shade-15: #1e5d57;
+  --accent-shade-16: #184945;
+  --accent-shade-17: #123633;
+  --accent-shade-18: #0c2321;
+  --accent-shade-19: #05100f;
+  --accent2-color: #8bc34a;
+  --accent2-shade-1: #f9fcf6;
+  --accent2-shade-2: #edf6e3;
+  --accent2-shade-3: #e1efd0;
+  --accent2-shade-4: #d5e9bd;
+  --accent2-shade-5: #c8e3aa;
+  --accent2-shade-6: #bcdc97;
+  --accent2-shade-7: #b0d683;
+  --accent2-shade-8: #a4d070;
+  --accent2-shade-9: #97c95d;
+  --accent2-shade-10: #7eb73d;
+  --accent2-shade-11: #71a436;
+  --accent2-shade-12: #649130;
+  --accent2-shade-13: #577d2a;
+  --accent2-shade-14: #496a23;
+  --accent2-shade-15: #3c571d;
+  --accent2-shade-16: #2f4417;
+  --accent2-shade-17: #223110;
+  --accent2-shade-18: #141e0a;
+  --accent2-shade-19: #070b03;
+  --accent3-color: #f44336;
+  --accent3-shade-1: #fff8f7;
+  --accent3-shade-2: #fde1df;
+  --accent3-shade-3: #fccbc7;
+  --accent3-shade-4: #fbb4af;
+  --accent3-shade-5: #f99d97;
+  --accent3-shade-6: #f8877f;
+  --accent3-shade-7: #f77066;
+  --accent3-shade-8: #f55a4e;
+  --accent3-shade-9: #f32c1e;
+  --accent3-shade-10: #ea1c0d;
+  --accent3-shade-11: #d2190b;
+  --accent3-shade-12: #ba160a;
+  --accent3-shade-13: #a21309;
+  --accent3-shade-14: #891008;
+  --accent3-shade-15: #710e06;
+  --accent3-shade-16: #590b05;
+  --accent3-shade-17: #410804;
+  --accent3-shade-18: #290502;
+  --accent3-shade-19: #110201;
+}
+
+:root {
+  --primary-transparency-1: rgba(3, 169, 244, 0.1);
+  --primary-transparency-2: rgba(3, 169, 244, 0.2);
+  --primary-transparency-3: rgba(3, 169, 244, 0.3);
+  --primary-transparency-4: rgba(3, 169, 244, 0.4);
+  --primary-transparency-5: rgba(3, 169, 244, 0.5);
+  --primary-transparency-6: rgba(3, 169, 244, 0.6);
+  --primary-transparency-7: rgba(3, 169, 244, 0.7);
+  --primary-transparency-8: rgba(3, 169, 244, 0.8);
+  --primary-transparency-9: rgba(3, 169, 244, 0.9);
+  --secondary-transparency-1: rgba(103, 58, 183, 0.1);
+  --secondary-transparency-2: rgba(103, 58, 183, 0.2);
+  --secondary-transparency-3: rgba(103, 58, 183, 0.3);
+  --secondary-transparency-4: rgba(103, 58, 183, 0.4);
+  --secondary-transparency-5: rgba(103, 58, 183, 0.5);
+  --secondary-transparency-6: rgba(103, 58, 183, 0.6);
+  --secondary-transparency-7: rgba(103, 58, 183, 0.7);
+  --secondary-transparency-8: rgba(103, 58, 183, 0.8);
+  --secondary-transparency-9: rgba(103, 58, 183, 0.9);
+  --accent-transparency-1: rgba(79, 197, 186, 0.1);
+  --accent-transparency-2: rgba(79, 197, 186, 0.2);
+  --accent-transparency-3: rgba(79, 197, 186, 0.3);
+  --accent-transparency-4: rgba(79, 197, 186, 0.4);
+  --accent-transparency-5: rgba(79, 197, 186, 0.5);
+  --accent-transparency-6: rgba(79, 197, 186, 0.6);
+  --accent-transparency-7: rgba(79, 197, 186, 0.7);
+  --accent-transparency-8: rgba(79, 197, 186, 0.8);
+  --accent-transparency-9: rgba(79, 197, 186, 0.9);
+  --accent2-transparency-1: rgba(139, 195, 74, 0.1);
+  --accent2-transparency-2: rgba(139, 195, 74, 0.2);
+  --accent2-transparency-3: rgba(139, 195, 74, 0.3);
+  --accent2-transparency-4: rgba(139, 195, 74, 0.4);
+  --accent2-transparency-5: rgba(139, 195, 74, 0.5);
+  --accent2-transparency-6: rgba(139, 195, 74, 0.6);
+  --accent2-transparency-7: rgba(139, 195, 74, 0.7);
+  --accent2-transparency-8: rgba(139, 195, 74, 0.8);
+  --accent2-transparency-9: rgba(139, 195, 74, 0.9);
+  --accent3-transparency-1: rgba(244, 67, 54, 0.1);
+  --accent3-transparency-2: rgba(244, 67, 54, 0.2);
+  --accent3-transparency-3: rgba(244, 67, 54, 0.3);
+  --accent3-transparency-4: rgba(244, 67, 54, 0.4);
+  --accent3-transparency-5: rgba(244, 67, 54, 0.5);
+  --accent3-transparency-6: rgba(244, 67, 54, 0.6);
+  --accent3-transparency-7: rgba(244, 67, 54, 0.7);
+  --accent3-transparency-8: rgba(244, 67, 54, 0.8);
+  --accent3-transparency-9: rgba(244, 67, 54, 0.9);
+}
+
+:root {
+  --neutral-color: #808488;
+  --neutral-shade-1: #f6f7f7;
+  --neutral-shade-2: #e9eaeb;
+  --neutral-shade-3: #dcddde;
+  --neutral-shade-4: #cfd1d2;
+  --neutral-shade-5: #c2c4c6;
+  --neutral-shade-6: #b5b7b9;
+  --neutral-shade-7: #a7aaad;
+  --neutral-shade-8: #9a9ea1;
+  --neutral-shade-9: #8d9194;
+  --neutral-shade-10: #73777b;
+  --neutral-shade-11: #676b6e;
+  --neutral-shade-12: #5b5e61;
+  --neutral-shade-13: #4e5154;
+  --neutral-shade-14: #424446;
+  --neutral-shade-15: #363839;
+  --neutral-shade-16: #292b2c;
+  --neutral-shade-17: #1d1e1f;
+  --neutral-shade-18: #111112;
+  --neutral-shade-19: #040505;
+}
+
+:root {
+  --canvasColor: #f9f9f9;
+  --backgroundColor: #fff;
+  --foregroundColor: #111;
+}
+
+body {
+  background: var(--canvasColor);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: center;
+  transition: all .3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  --grayColor: #999;
+  --lightGrayColor: #ddd;
+  --borderRadius: 6px;
+  --boxShadow: 0 2px 5px rgba(#333, 0.2);
+}
+
+/*overall layout*/
+main {
+  width: 90%;
+  max-width: 1050px;
+  margin: 3em auto 0;
+  border: 1px solid var(--accent-color);
+  display: grid;
+  grid: repeat(5, fit-content(300px))/repeat(4, 1fr);
+  grid-template-areas: "buttons buttons links colors"
+                       "typography typography typography colors"
+                       "inputs inputs inputs inputs"
+                       "badges tooltips alerts alerts"
+                       "loading tooltips alerts alerts";
+  color: var(--foregroundColor);
+  text-align: left;
+}
+
+main > section {
+  position: relative;
+}
+main > section > h6 {
+  color: var(--accent-color);
+  background: var(--canvasColor);
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  padding: 0 10px;
+}
+main > section h6.subheader {
+  color: var(--grayColor);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.colors {
+  grid-area: colors;
+  padding: 30px;
+  border: 1px solid var(--accent-color);
+  border-width: 0 0px 1px 1px;
+}
+
+.typography {
+  grid-area: typography;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.buttons-wrapper {
+  grid-area: buttons;
+  padding: 30px;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.links {
+  grid-area: links;
+  padding: 30px;
+  border: 1px solid var(--accent-color);
+  border-width: 0 0 1px 1px;
+}
+
+.inputs-selects {
+  padding: 40px 30px;
+  grid-area: inputs;
+  display: grid;
+  grid-auto-flow: dense;
+  grid: repeat(2, max-content)/repeat(6, 1fr);
+  grid-gap: 30px;
+  border-bottom: 1px solid var(--accent-color);
+}
+.inputs-selects .inputs {
+  grid-column: span 3;
+}
+.inputs-selects .textarea-select {
+  grid-column: span 3;
+}
+.inputs-selects .inputs .input__wrapper:last-child,
+.inputs-selects .textarea-select .input__wrapper:last-child {
+  margin: 0;
+}
+.inputs-selects .toggle-buttons,
+.inputs-selects .checkboxes,
+.inputs-selects .radio-buttons {
+  grid-column: span 2;
+}
+
+.badges {
+  grid-area: badges;
+  padding: 30px 30px 40px;
+}
+
+.alerts {
+  grid-area: alerts;
+  padding: 40px 30px;
+}
+
+.tooltips {
+  grid-area: tooltips;
+  padding: 20px 30px 30px;
+  border: 1px solid var(--accent-color);
+  border-width: 0 1px;
+}
+.tooltips .tooltip:nth-child(-n + 2) {
+  margin: 90px 0 20px;
+}
+
+.loading {
+  grid-area: loading;
+  padding: 40px 30px 30px 30px;
+  text-align: center;
+  border-top: 1px solid var(--accent-color);
+}
+.loading .spinner-2 {
+  margin-top: 30px;
+}
+
+/*colors*/
+.palette {
+  display: grid;
+  grid: 80px 45px min-content/repeat(5, minmax(50px, 1fr));
+  margin-bottom: 1em;
+}
+.palette__main {
+  grid-column: span 5;
+}
+.palette h5 {
+  grid-column: span 5;
+  text-align: left;
+  padding: 10px 0;
+}
+.palette.main div:nth-child(1) {
+  background: var(--primary-color);
+}
+.palette.main div:nth-child(2) {
+  background: var(--primary-shade-2);
+}
+.palette.main div:nth-child(3) {
+  background: var(--primary-shade-4);
+}
+.palette.main div:nth-child(4) {
+  background: var(--primary-shade-6);
+}
+.palette.main div:nth-child(5) {
+  background: var(--primary-shade-10);
+}
+.palette.main div:nth-child(6) {
+  background: var(--primary-shade-12);
+}
+.palette.secondary div:nth-child(1) {
+  background: var(--secondary-color);
+}
+.palette.secondary div:nth-child(2) {
+  background: var(--secondary-shade-2);
+}
+.palette.secondary div:nth-child(3) {
+  background: var(--secondary-shade-4);
+}
+.palette.secondary div:nth-child(4) {
+  background: var(--secondary-shade-8);
+}
+.palette.secondary div:nth-child(5) {
+  background: var(--secondary-shade-12);
+}
+.palette.secondary div:nth-child(6) {
+  background: var(--secondary-shade-14);
+}
+.palette.accent1 div:nth-child(1) {
+  background: var(--accent-color);
+}
+.palette.accent1 div:nth-child(2) {
+  background: var(--accent-shade-2);
+}
+.palette.accent1 div:nth-child(3) {
+  background: var(--accent-shade-5);
+}
+.palette.accent1 div:nth-child(4) {
+  background: var(--accent-shade-9);
+}
+.palette.accent1 div:nth-child(5) {
+  background: var(--accent-shade-11);
+}
+.palette.accent1 div:nth-child(6) {
+  background: var(--accent-shade-12);
+}
+.palette.accent2 div:nth-child(1) {
+  background: var(--accent2-color);
+}
+.palette.accent2 div:nth-child(2) {
+  background: var(--accent2-shade-3);
+}
+.palette.accent2 div:nth-child(3) {
+  background: var(--accent2-shade-5);
+}
+.palette.accent2 div:nth-child(4) {
+  background: var(--accent2-shade-7);
+}
+.palette.accent2 div:nth-child(5) {
+  background: var(--accent2-shade-11);
+}
+.palette.accent2 div:nth-child(6) {
+  background: var(--accent2-shade-13);
+}
+.palette.accent3 div:nth-child(1) {
+  background: var(--accent3-color);
+}
+.palette.accent3 div:nth-child(2) {
+  background: var(--accent3-shade-2);
+}
+.palette.accent3 div:nth-child(3) {
+  background: var(--accent3-shade-4);
+}
+.palette.accent3 div:nth-child(4) {
+  background: var(--accent3-shade-6);
+}
+.palette.accent3 div:nth-child(5) {
+  background: var(--accent3-shade-11);
+}
+.palette.accent3 div:nth-child(6) {
+  background: var(--accent3-shade-12);
+}
+.palette.neutrals {
+  grid-template-rows: repeat(2, 50px) min-content;
+  grid-template-columns: repeat(4, 1fr);
+}
+.palette.neutrals div:nth-child(1) {
+  background: var(--neutral-shade-2);
+}
+.palette.neutrals div:nth-child(2) {
+  background: var(--neutral-shade-3);
+}
+.palette.neutrals div:nth-child(3) {
+  background: var(--neutral-shade-5);
+}
+.palette.neutrals div:nth-child(4) {
+  background: var(--neutral-shade-7);
+}
+.palette.neutrals div:nth-child(5) {
+  background: var(--neutral-shade-10);
+  grid-row: 2;
+}
+.palette.neutrals div:nth-child(6) {
+  background: var(--neutral-shade-12);
+  grid-row: 2;
+}
+.palette.neutrals div:nth-child(7) {
+  background: var(--neutral-shade-13);
+  grid-row: 2;
+}
+.palette.neutrals div:nth-child(8) {
+  background: var(--neutral-shade-16);
+  grid-row: 2;
+}
+
+/*typography*/
+strong {
+  font-weight: 500;
+}
+
+em {
+  font-style: italic;
+}
+
+h1 {
+  font: 700 48px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font: 700 32px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font: 700 24px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font: 700 20px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font: 500 18px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font: 500 16px/1.2 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.font-family {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.font-family > div {
+  flex: 1 1 30%;
+  padding: 30px 30px 0;
+  min-width: 10em;
+}
+
+.font-family-medium > * {
+  font-weight: 500;
+}
+
+.font-family-light > * {
+  font-weight: 300;
+}
+
+.font-example {
+  display: flex;
+  flex-wrap: wrap;
+}
+.font-example > div {
+  flex: 1 1 45%;
+  padding: 30px;
+  min-width: 16em;
+}
+.font-example p {
+  margin-bottom: 15px;
+}
+
+/*checkboxes*/
+input:disabled ~ * {
+  opacity: 0.3;
+  user-select: none;
+  pointer-events: none;
+}
+
+.checkbox-toggle input {
+  display: none;
+}
+.checkbox-toggle label {
+  outline: 0;
+  display: block;
+  width: 45px;
+  height: 16px;
+  background: var(--grayColor);
+  position: relative;
+  cursor: pointer;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all 0.4s ease;
+  margin: 0.8em;
+}
+.checkbox-toggle label:after {
+  position: relative;
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  transition: all 0.2s ease;
+  border: 1px solid var(--grayColor);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  left: -4px;
+  top: -5px;
+}
+.checkbox-toggle input:checked + label {
+  background: var(--accent2-color);
+}
+.checkbox-toggle input:checked + label:after {
+  left: 52%;
+}
+
+.checkbox {
+  position: relative;
+  user-select: none;
+  margin-bottom: 10px;
+}
+.checkbox input {
+  display: none;
+}
+.checkbox label {
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: 500;
+  padding-left: 35px;
+}
+.checkbox span.box {
+  display: inline-block;
+  width: 20px;
+  border-radius: var(--borderRadius);
+  border: 1px solid var(--grayColor);
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 3px;
+  transition: 0.3s ease;
+  position: absolute;
+  left: 0;
+}
+.checkbox span.box:before, .checkbox span.box:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  border-radius: 40px;
+  background: var(--backgroundColor);
+  transition: all 0.3s ease;
+}
+.checkbox span.box:before {
+  transform: rotate(45deg) translateY(-5px) translateX(10px) scale(0);
+}
+.checkbox span.box:after {
+  height: 8px;
+  transform: rotate(-45deg) translateY(10px) translateX(-4px) scale(0);
+}
+.checkbox input:checked + label span.box {
+  background: var(--accent2-color);
+  border-color: var(--accent2-color);
+}
+.checkbox input:checked + label span.box:before {
+  transform: rotate(45deg) translateY(-5px) translateX(10px) scale(1);
+}
+.checkbox input:checked + label span.box:after {
+  height: 8px;
+  transform: rotate(-45deg) translateY(10px) translateX(-4px) scale(1);
+}
+.checkbox input:disabled:checked + span.box {
+  background: var(--grayColor);
+  border: var(--grayColor);
+}
+.checkbox input:disabled:checked ~ label:before, .checkbox input:disabled:checked ~ label:after {
+  background: black;
+}
+
+/*radio buttons*/
+.radio {
+  margin: 10px 0;
+}
+.radio input {
+  display: none;
+}
+.radio input:checked + label:after {
+  transform: scale(1);
+}
+.radio label {
+  position: relative;
+  padding-left: 32px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.radio label:before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--grayColor);
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+}
+.radio label:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 4px;
+  background: var(--accent2-color);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease;
+}
+
+/*buttons & links*/
+.links__sec {
+  margin: 10px 0 30px;
+}
+.links a.link {
+  display: inline;
+  margin: 10px 30px 5px 0;
+  border-bottom: 2px dashed;
+  font-weight: 500;
+  line-height: 2.5;
+  cursor: pointer;
+  color: var(--neutral-shade-10);
+}
+.links a.link:hover, .links a.link.hover {
+  color: var(--neutral-shade-12);
+  border-bottom: 2px solid;
+}
+.links a.link.primary {
+  color: var(--primary-color);
+}
+.links a.link.primary:hover, .links a.link.primary.hover {
+  color: var(--primary-shade-12);
+}
+.links a.link.secondary {
+  color: var(--secondary-color);
+}
+.links a.link.secondary:hover, .links a.link.secondary.hover {
+  color: var(--secondary-shade-14);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.buttons > * {
+  flex: 1 1 calc(50% - 20px);
+  margin-top: 20px;
+}
+.buttons > *:nth-child(odd) {
+  margin-right: 20px;
+}
+
+a.button,
+input.button,
+button {
+  outline: none;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  font: 500 16px/1 "Poppins", sans-serif;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: var(--borderRadius);
+  background: var(--primary-color);
+  color: var(--backgroundColor);
+  position: relative;
+  top: 0;
+  transition: 0.2s ease;
+}
+a.button:hover, a.button.hover,
+input.button:hover,
+input.button.hover,
+button:hover,
+button.hover {
+  top: -3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+a.button:active, a.button.active,
+input.button:active,
+input.button.active,
+button:active,
+button.active {
+  background: var(--primary-shade-10);
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  top: 0;
+}
+a.button.disabled,
+input.button.disabled,
+button.disabled {
+  opacity: 0.4;
+  user-select: none;
+  pointer-events: none;
+}
+a.button.medium,
+input.button.medium,
+button.medium {
+  padding: 15px 18px;
+  width: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+a.button.small,
+input.button.small,
+button.small {
+  padding: 10px 12px;
+  width: auto;
+  font-size: 14px;
+  font-weight: 500;
+}
+a.button.secondary,
+input.button.secondary,
+button.secondary {
+  background: var(--secondary-color);
+}
+a.button.secondary:active, a.button.secondary:focus, a.button.secondary.active,
+input.button.secondary:active,
+input.button.secondary:focus,
+input.button.secondary.active,
+button.secondary:active,
+button.secondary:focus,
+button.secondary.active {
+  background: var(--secondary-shade-12);
+  outline: none;
+}
+a.button.accent,
+input.button.accent,
+button.accent {
+  background: var(--accent-color);
+}
+a.button.accent:active, a.button.accent:focus, a.button.accent.active,
+input.button.accent:active,
+input.button.accent:focus,
+input.button.accent.active,
+button.accent:active,
+button.accent:focus,
+button.accent.active {
+  background: var(--accent-shade-11);
+}
+a.button.accent2,
+input.button.accent2,
+button.accent2 {
+  background: var(--accent2-color);
+}
+a.button.accent2:active, a.button.accent2:focus, a.button.accent2.active,
+input.button.accent2:active,
+input.button.accent2:focus,
+input.button.accent2.active,
+button.accent2:active,
+button.accent2:focus,
+button.accent2.active {
+  background: var(--accent2-shade-11);
+}
+a.button.accent3,
+input.button.accent3,
+button.accent3 {
+  background: var(--accent3-color);
+}
+a.button.accent3:active, a.button.accent3:focus, a.button.accent3.active,
+input.button.accent3:active,
+input.button.accent3:focus,
+input.button.accent3.active,
+button.accent3:active,
+button.accent3:focus,
+button.accent3.active {
+  background: var(--accent3-shade-11);
+}
+
+/*inputs*/
+.input__wrapper {
+  margin-bottom: 30px;
+}
+
+.label-form {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input.input-form,
+select,
+textarea {
+  height: 50px;
+  font-size: 16px;
+  border: 2px solid var(--neutral-shade-5);
+  width: 100%;
+  padding: 12px;
+  font-family: "Poppins";
+  border-radius: var(--borderRadius);
+  color: var(--foregroundColor);
+  background: var(--backgroundColor);
+}
+input.input-form:focus, input.input-form.active,
+select:focus,
+select.active,
+textarea:focus,
+textarea.active {
+  outline: none;
+  border-color: var(--primary-color);
+}
+input.input-form:disabled,
+select:disabled,
+textarea:disabled {
+  cursor: not-allowed;
+  background: var(--neutral-shade-2);
+  opacity: 0.6;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 117px;
+}
+
+select {
+  height: 45px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+select option {
+  font-weight: 300;
+}
+
+.input__validator {
+  position: relative;
+}
+.input__validator__status {
+  position: absolute;
+  border-radius: 50%;
+  background: purple;
+  width: 30px;
+  height: 30px;
+  right: 10px;
+  top: 10px;
+}
+.input__validator__status:before, .input__validator__status:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 18px;
+  border-radius: 40px;
+  background: var(--backgroundColor);
+}
+
+.input-error input,
+.input-error select,
+.input-error textarea {
+  border-color: var(--accent3-color);
+}
+.input-error .feedback-form {
+  color: var(--accent3-shade-6);
+}
+.input-error .input__validator__status {
+  background: var(--accent3-color);
+}
+.input-error .input__validator__status:before {
+  transform: rotate(45deg) translateY(-5.5px) translateX(13.5px);
+}
+.input-error .input__validator__status:after {
+  transform: rotate(-45deg) translateY(13.5px) translateX(5.5px);
+}
+
+.input-success input,
+.input-success select,
+.input-success textarea {
+  border-color: var(--accent2-color);
+}
+.input-success .feedback-form {
+  color: var(--accent2-shade-11);
+}
+.input-success .input__validator__status {
+  background: var(--accent2-color);
+}
+.input-success .input__validator__status:before {
+  transform: rotate(45deg) translateY(-6px) translateX(16px);
+}
+.input-success .input__validator__status:after {
+  height: 7px;
+  transform: rotate(-45deg) translateY(16px) translateX(-5px);
+}
+
+.feedback-form {
+  margin-top: 5px;
+  color: var(--neutral-shade-12);
+}
+
+/*badges*/
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 5px 10px 5px 0;
+  line-height: 1;
+}
+
+.alert {
+  margin-bottom: 15px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: var(--borderRadius);
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.alert:before, .alert:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  border-radius: 40px;
+  right: 30px;
+  top: 8px;
+}
+.alert:before {
+  transform: rotate(45deg) translateY(-5.5px) translateX(13.5px);
+}
+.alert:after {
+  transform: rotate(-45deg) translateY(13.5px) translateX(5.5px);
+}
+
+.status-primary {
+  background: var(--primary-shade-2);
+  color: var(--primary-shade-10);
+}
+.status-primary:before, .status-primary:after {
+  background: var(--primary-shade-10);
+}
+
+.status-secondary {
+  background: var(--secondary-shade-2);
+  color: var(--secondary-shade-14);
+}
+.status-secondary:before, .status-secondary:after {
+  background: var(--secondary-shade-12);
+}
+
+.status-info {
+  background: var(--accent-shade-2);
+  color: var(--accent-shade-11);
+}
+.status-info:before, .status-info:after {
+  background: var(--accent-shade-11);
+}
+
+.status-success {
+  background: var(--accent2-shade-3);
+  color: var(--accent2-shade-11);
+}
+.status-success:before, .status-success:after {
+  background: var(--accent2-shade-11);
+}
+
+.status-error {
+  background: var(--accent3-shade-2);
+  color: var(--accent3-shade-11);
+}
+.status-error:before, .status-error:after {
+  background: var(--accent3-shade-11);
+}
+
+/*tooltips*/
+.tooltip {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+.tooltip span {
+  border-bottom: 1px dotted;
+}
+.tooltip:after {
+  content: attr(data-tooltip);
+  background: var(--neutral-shade-3);
+  max-width: 90%;
+  width: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  height: auto;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: var(--borderRadius);
+  color: var(--foregroundColor);
+  text-align: center;
+}
+.tooltip.dark:after {
+  background: var(--neutral-shade-13);
+  color: var(--backgroundColor);
+}
+.tooltip.top:after {
+  bottom: 80%;
+  transition: opacity 0.3s ease 0.3s, bottom 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+}
+.tooltip.top:hover:after, .tooltip.top.hovered:after {
+  bottom: 130%;
+  opacity: 1;
+}
+.tooltip.bottom:after {
+  top: 80%;
+  transition: opacity 0.3s ease 0.3s, top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+}
+.tooltip.bottom:hover:after, .tooltip.bottom.hovered:after {
+  top: 130%;
+  opacity: 1;
+}
+
+/*spinner*/
+.spinner + label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--primary-shade-10);
+}
+
+.spinner-1 .spinner {
+  max-width: 50px;
+  margin: auto;
+  height: 20px;
+  position: relative;
+}
+.spinner-1 .spinner:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -10%;
+  background: var(--primary-color);
+  animation: spinnerLeftRight 0.6s infinite;
+}
+.spinner-1 .spinner:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -10%;
+  background: var(--primary-shade-4);
+  opacity: 1;
+  animation: spinnerLeftRight 0.6s infinite 0.06s;
+}
+
+.spinner-2 .spinner {
+  width: 90%;
+  margin: auto;
+  height: 10px;
+  background: var(--neutral-shade-3);
+  border-radius: 40px;
+  position: relative;
+}
+.spinner-2 .spinner:before {
+  content: "";
+  border-radius: inherit;
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  left: 0;
+  background: var(--primary-color);
+  opacity: 1;
+  animation: spinnerFill 5s infinite;
+}
+
+@keyframes spinnerLeftRight {
+  0% {
+    left: 85%;
+  }
+  50% {
+    left: -10%;
+  }
+  100% {
+    left: 85%;
+  }
+}
+@keyframes spinnerFill {
+  0% {
+    width: 2%;
+  }
+  50%,
+	100% {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  main {
+    grid: repeat(9, fit-content(300px))/100%;
+    grid-template-areas: "colors" "typography" "buttons" "links" "inputs" "badges" "tooltips" "alerts" "loading";
+  }
+  main > section:not(:last-child) {
+    border: 1px solid var(--accent-color);
+    border-width: 0 0 1px;
+  }
+  main > section:last-child {
+    border-width: 0;
+  }
+
+  .typography,
+  .buttons-wrapper {
+    padding-bottom: 40px;
+  }
+
+  .tooltips {
+    padding-bottom: 60px;
+  }
+
+  .inputs-selects .inputs,
+  .inputs-selects .textarea-select {
+    grid-column: span 6;
+  }
+
+  .inputs-selects .toggle-buttons,
+  .inputs-selects .checkboxes,
+  .inputs-selects .radio-buttons {
+    grid-column: span 3;
+  }
+}
+/*variations*/
+input.variation {
+  display: none;
+}
+input.variation + label {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 30px 20px 0;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 6px solid #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 500px) {
+  input.variation + label {
+    margin: 70px 20px 20px;
+  }
+}
+#bluepurple + label {
+  background: linear-gradient(to left, #673ab7 50%, #03a9f4 50%);
+}
+
+#sunset + label {
+  background: linear-gradient(to right, #ff9557 50%, #ffcc67 50%);
+}
+
+#godiva + label {
+  background: linear-gradient(to right, #a05793 50%, #a3d858 50%);
+}
+
+#dark + label {
+  background: linear-gradient(to right, #367bc3 50%, #38bfa7 50%);
+}
+#dark:checked ~ main > section > h6 {
+  color: #f1f2eb;
+}
+
+#pinkaru + label {
+  background: linear-gradient(to right, #f95794 50%, #323da5 50%);
+}
+#pinkaru:checked ~ main > section > h6 {
+  color: #fff;
+}
+
+#dark:checked ~ main h6.subheader,
+#dark:checked ~ main .feedback-form,
+#pinkaru:checked ~ main h6.subheader,
+#pinkaru:checked ~ main .feedback-form {
+  color: var(--neutral-shade-2);
+}
+#dark:checked ~ main ::placeholder,
+#pinkaru:checked ~ main ::placeholder {
+  color: var(--neutral-shade-7);
+  opacity: 1;
+}
+#dark:checked ~ main :-ms-input-placeholder,
+#pinkaru:checked ~ main :-ms-input-placeholder {
+  color: var(--neutral-shade-7);
+}
+#dark:checked ~ main ::-ms-input-placeholder,
+#pinkaru:checked ~ main ::-ms-input-placeholder {
+  color: var(--neutral-shade-7);
+}
+#dark:checked ~ main .tooltip:after,
+#pinkaru:checked ~ main .tooltip:after {
+  color: var(--backgroundColor);
+}
+#dark:checked ~ main a.button,
+#dark:checked ~ main input.button,
+#dark:checked ~ main button,
+#dark:checked ~ main .tooltip.dark:after,
+#pinkaru:checked ~ main a.button,
+#pinkaru:checked ~ main input.button,
+#pinkaru:checked ~ main button,
+#pinkaru:checked ~ main .tooltip.dark:after {
+  color: var(--foregroundColor);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#dark:checked ~ main a.link,
+#pinkaru:checked ~ main a.link {
+  color: var(--neutral-shade-3);
+}
+#dark:checked ~ main a.link:hover, #dark:checked ~ main a.link.hover,
+#pinkaru:checked ~ main a.link:hover,
+#pinkaru:checked ~ main a.link.hover {
+  color: var(--neutral-shade-2);
+  border-bottom: 2px solid;
+}
+#dark:checked ~ main a.link.primary,
+#pinkaru:checked ~ main a.link.primary {
+  color: var(--primary-shade-4);
+}
+#dark:checked ~ main a.link.primary:hover, #dark:checked ~ main a.link.primary.hover,
+#pinkaru:checked ~ main a.link.primary:hover,
+#pinkaru:checked ~ main a.link.primary.hover {
+  color: var(--primary-shade-2);
+}
+#dark:checked ~ main a.link.secondary,
+#pinkaru:checked ~ main a.link.secondary {
+  color: var(--secondary-shade-4);
+}
+#dark:checked ~ main a.link.secondary:hover, #dark:checked ~ main a.link.secondary.hover,
+#pinkaru:checked ~ main a.link.secondary:hover,
+#pinkaru:checked ~ main a.link.secondary.hover {
+  color: var(--secondary-shade-2);
+}
+
+#dark:checked ~ main .status-primary,
+#pinkaru:checked ~ main .status-primary {
+  /* background: var(--primary-shade-10); */
+  background: var(--primary-transparency-7);
+  color: var(--primary-shade-2);
+  
+}
+#dark:checked ~ main .status-primary:after,
+#pinkaru:checked ~ main .status-primary:before,
+#dark:checked ~ main .status-primary:before,
+#pinkaru:checked ~ main .status-primary:after {
+  background: var(--primary-shade-2);
+}
+
+#dark:checked ~ main .status-secondary,
+#pinkaru:checked ~ main .status-secondary {
+  background: var(--secondary-transparency-7);
+  color: var(--secondary-shade-2);
+}
+#dark:checked ~ main .status-secondary:after,
+#pinkaru:checked ~ main .status-secondary:before,
+#dark:checked ~ main .status-secondary:before,
+#pinkaru:checked ~ main .status-secondary:after {
+  background: var(--secondary-shade-2);
+}
+#dark:checked ~ main .status-info,
+#pinkaru:checked ~ main .status-info {
+  background: var(--accent-transparency-7);
+  color: var(--accent-shade-2);
+}
+#dark:checked ~ main .status-info:after,
+#pinkaru:checked ~ main .status-info:before,
+#dark:checked ~ main .status-info:before,
+#pinkaru:checked ~ main .status-info:after {
+  background: var(--accent-shade-2);
+}
+#dark:checked ~ main .status-success,
+#pinkaru:checked ~ main .status-success {
+  background: var(--accent2-transparency-7);
+  color: var(--accent2-shade-3);
+}
+#dark:checked ~ main .status-success:after,
+#pinkaru:checked ~ main .status-success:before,
+#dark:checked ~ main .status-success:before,
+#pinkaru:checked ~ main .status-success:after {
+  background: var(--accent2-shade-3);
+}
+#dark:checked ~ main .status-error,
+#pinkaru:checked ~ main .status-error {
+  background: var(--accent3-transparency-7);
+  color: var(--accent3-shade-2);
+}
+#dark:checked ~ main .status-error:after,
+#pinkaru:checked ~ main .status-error:before,
+#dark:checked ~ main .status-error:before,
+#pinkaru:checked ~ main .status-error:after {
+  background: var(--accent3-shade-2);
+}
+
+footer {
+  display: grid;
+  grid: min-content / 1fr max-content;
+  text-align: left;
+  width: 90%;
+  margin: 1em auto 4em;
+  max-width: 1050px;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 3px 0;
+  border-bottom: 1px dashed;
+}
+footer a:hover {
+  border-bottom: 1px solid;
+}
+footer .social a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+footer .social a .icons {
+  display: inline-block;
+  font-size: 20px;
+}
+footer.dark, footer.dark a {
+  color: #f9f9f9;
+}
